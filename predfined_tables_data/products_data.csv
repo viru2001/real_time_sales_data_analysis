@@ -1,0 +1,11 @@
+product_id,name,category,price,supplier_id
+P501,Fitness Tracker,Electronics,149.99,S102
+P502,Laptop,Electronics,1499.99,S102
+P503,Smart Watch,Electronics,199.99,S101
+P504,High-Performance Blender,Kitchen Appliances,199.99,S105
+P505,Portable Espresso Machine,Kitchen Appliances,89.99,S104
+P506,Wireless Mouse,Electronics,29.99,S106
+P507,Smart Refrigerator,Home Automation,999.99,S106
+P508,Food Processor,Kitchen Appliances,119.99,S105
+P509,Smart Lighting Kit,Home Automation,79.99,S108
+P510,Touchscreen Laptop,Electronics,1299.99,S102
