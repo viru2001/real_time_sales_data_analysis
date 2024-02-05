@@ -8,6 +8,7 @@
 You can find create table statements for bigquery tables in `bigquery_queries.sql` file.
 
 --- 
+Spin up linux server on google compute engine and do google CLI setup by following steps.
 
 #### gcloud CLI setup
 
@@ -44,7 +45,7 @@ Then we need to install bigquery and pub/sub python libraries using below comman
 
 Now we can run python publisher code.
 
-    python3 sale_data_publisher
+    python3 sale_data_publisher.py
 
 ---
 Now data will be published into pub/sub topic and then by using GCP Dataflow it will be ingested in GCP Bigquery in realtime.
@@ -53,3 +54,11 @@ Now data will be published into pub/sub topic and then by using GCP Dataflow it 
 Analytical queries we used in dashbaord can be found in file `dashboard queries.sql`.
 
 [Link for Dashboard](https://lookerstudio.google.com/reporting/1b5e8221-0db3-4d11-8c42-8c14ce75371c)
+
+Dashboard Screenshots
+
+![dashboard ss](https://github.com/viru2001/real_time_sales_data_analysis/assets/52121256/29d7f821-4604-4808-83cc-457f820b63ed)
+
+
+![dashboard ss1](https://github.com/viru2001/real_time_sales_data_analysis/assets/52121256/d0aea0a6-2fdc-433a-aef5-94fa5c26b50e)
+
